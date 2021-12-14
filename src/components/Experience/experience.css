@@ -1,0 +1,17 @@
+.experience {
+  background: conic-gradient(from 358deg at 100% 41%, #002853 0%, #040c18 100%);
+  color: rgb(182, 182, 182);
+  font-size: 0.75em;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 20px 0;
+}
+
+.experience-header-title img {
+  width: 12%;
+  height: 25%;
+  margin-right: 10px;
+}
