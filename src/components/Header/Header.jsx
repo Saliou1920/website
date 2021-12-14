@@ -27,7 +27,7 @@ export default function Menu() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <div className="header-content">
+        <div className="header-content" id="about">
           <div className="header-content-inner">
             <h1>Hi I'm Saliou</h1>
             <p>I am a Software Developer located in New Brunswick.</p>
