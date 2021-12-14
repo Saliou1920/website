@@ -58,6 +58,23 @@
   animation: header-content-inner 3s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
+.header-content-inner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+
+  background: -moz-linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
+  background: -webkit-linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
+  background: -o-linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F49867', endColorstr='#AE67FA', GradientType=0 );
+  background: -ms-linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
+
+  background: linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @-webkit-keyframes header-content-inner {
   0% {
     letter-spacing: -0.5em;
