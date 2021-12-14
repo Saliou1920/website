@@ -17,6 +17,10 @@ export default function Experience() {
           <span>Prime</span>
         </div>
       </div>
+
+      <div className="experience-body">
+        <div className="experience-body-title"></div>
+      </div>
     </div>
   );
 }
