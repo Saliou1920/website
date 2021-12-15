@@ -63,7 +63,7 @@ export default function Experience() {
                   <p>
                     Produced a 3D photorealistic model that can predict
                     effectively fire propagation from parameters such as wind
-                    speed, humidity etc....
+                    speed, humidity etc...
                   </p>
                   <p>
                     Used the Unity game engine, C# programming language and
