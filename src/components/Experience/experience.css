@@ -15,3 +15,16 @@
   height: 25%;
   margin-right: 10px;
 }
+
+@media screen and (max-width: 414px) {
+  .experience-header-title img {
+    width: 10%;
+    height: 20%;
+  }
+  .experience-header {
+    padding: 20px 0 10px 0;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 25%;
+  }
+}
