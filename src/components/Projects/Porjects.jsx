@@ -3,25 +3,27 @@ import React from "react";
 export default function Porjects() {
   const projects = [
     {
-      name: "Greystone Energy",
+      name: "Images Gallery",
       description:
-        "Worked with the operation manager to create dashboard in Python and Power Bi to evaluate employees performance using the company large Oracle database.",
-      link: "https://www.greystoneenergy.com/",
-      image: "greystone.jpeg",
+        "A web app that uses the Unplash API to display beautiful images. The user can search for images by keyword, and can also save the images to their own collection. ",
+      languages: "React, React-Router, Unplash API, firebase auth",
+      link: "https://github.com/Saliou1920/Images-Gallery",
+      image: "gallery.png",
     },
     {
-      name: "Universite de Moncton",
+      name: "Word Scrambler",
       description:
-        "Built reports for the operation manager to understand the data analysis steps, enabling him to take important decisions based on performance.",
-      link: "https://www.umoncton.ca/",
-      image: "umoncton.png",
+        "A word scrambler and typing game. The user has to type the unscrambled word. If the whole sentence is correctly guessed, there should be a next button that shows at the bottom. If you click it would try to fetch the next sentence from the API, increasing the counter",
+      languages: "React, HTML, CSS, Javascript",
+      link: "https://github.com/Saliou1920/word_scrambler",
+      image: "word.png",
     },
     {
-      name: "Prime",
+      name: "BLOG",
       description:
-        "Worked with Professor Akhloufi and MSc students to create a simulation tool for forest fires to help prevent forest fires.",
-      link: "https://www.prime.ca/",
-      image: "prime.jpeg",
+        " A blog website that uses MYSQL to store and retrieve data. The admin can create a new post, edit an existing post, and delete a post. He can also create a new user, edit an existing user, and delete a user.",
+      link: "https://github.com/Saliou1920/Blog",
+      image: "blog.png",
     },
   ];
 
