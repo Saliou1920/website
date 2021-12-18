@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, CardGroup } from "react-bootstrap";
 
 export default function Porjects() {
   const projects = [
@@ -27,28 +28,21 @@ export default function Porjects() {
     },
   ];
 
-  return projects.map((project, id) => (
-    <div className="project" key={id}>
-      <div className="project-header">
-        <div className="project-header-title">
-          <img src={`../../images/${project.image}`} alt={project.name} />
-          <span>{project.name}</span>
-        </div>
-      </div>
-
-      <div className="project-body">
-        <div className="project-body-title">
-          <div />
-          <h2>Project</h2>
-        </div>
-
-        <div className="project-body-content">
-          <p>{project.description}</p>
-          <a href={project.link} target="_blank" rel="noopener noreferrer">
-            <button>Visit Website</button>
-          </a>
-        </div>
-      </div>
-    </div>
-  ));
+  return (
+    <CardGroup>
+      {projects.map((project) => (
+        <Card>
+          <Card.Img variant="top" src={project.image} />
+          <Card.Body>
+            <Card.Title>{project.name}</Card.Title>
+            <Card.Text>{project.description}</Card.Text>
+            <Card.Text>{project.languages}</Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <Card.Link href={project.link}>Github</Card.Link>
+          </Card.Footer>
+        </Card>
+      ))}
+    </CardGroup>
+  );
 }
