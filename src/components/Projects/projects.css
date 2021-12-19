@@ -1,0 +1,49 @@
+.projects {
+  background-color: #040c18;
+  padding-top: 50px;
+  color: white;
+}
+.card {
+  background-color: #002853;
+  margin-right: 10px;
+  border: #002853 solid 1px;
+  border-radius: 0 0 10px 10px;
+}
+.animation {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-animation: scale-down-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-down-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.card img {
+  max-height: 200px;
+}
+
+.card-text {
+  color: rgb(211, 211, 211);
+  font-size: 0.85em;
+}
+
+/* animation scale-up-center */
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
