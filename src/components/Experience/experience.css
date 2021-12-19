@@ -2,6 +2,7 @@
   background: conic-gradient(from 358deg at 100% 41%, #002853 0%, #040c18 100%);
   color: rgb(211, 211, 211);
   font-size: 0.75em;
+  padding-bottom: 30px;
 }
 
 .experience-header {
