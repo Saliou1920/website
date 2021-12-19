@@ -2,11 +2,15 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./header.css";
+import particuleConfig from "../../Config/particuleConfig";
+
+import Particles from "react-tsparticles";
 
 export default function Menu() {
   return (
     <div className="header">
       <Container>
+        <Particles className="particles" params={particuleConfig} />
         <Navbar collapseOnSelect expand="lg" variant="dark">
           <Container>
             <Navbar.Brand href="#home">
