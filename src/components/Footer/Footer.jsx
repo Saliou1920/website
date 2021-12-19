@@ -12,22 +12,30 @@ import "./footer.css";
 
 export default function Footer() {
   return (
-    <div className="footer text-center ">
+    <div className="footer text-center" id="contact">
       <Container>
         <div className="container p-4">
           <section className="mb-4">
-            <a className="btn  m-1 instagram" href="#!" role="button">
+            <a
+              className="btn  m-1 instagram"
+              href="https://www.instagram.com/salihou_joob/"
+              role="button"
+            >
               <FaInstagramSquare />
             </a>
 
             <a
               className="btn  btn-floating m-1 linkedin"
-              href="#!"
+              href="https://www.linkedin.com/in/saliou-diop-527741112/"
               role="button"
             >
               <FaLinkedin />
             </a>
-            <a className="btn  btn-floating m-1 github" href="#!" role="button">
+            <a
+              className="btn  btn-floating m-1 github"
+              href="https://github.com/Saliou1920"
+              role="button"
+            >
               <FaGithubSquare />
             </a>
           </section>
@@ -57,7 +65,7 @@ export default function Footer() {
               <p>Software Developer</p>
               {/* Download my resume */}
               <button className="btn btn-danger">
-                <a className="text-white" href="../../saliou.pdf" download>
+                <a className="text-white" href="../../resume.pdf" download>
                   {" "}
                   Resume
                 </a>
