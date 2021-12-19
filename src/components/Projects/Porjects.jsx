@@ -48,12 +48,22 @@ export default function Porjects() {
             <Card id="card" data-aos={project.animation}>
               <Card.Img variant="top" src={project.image} />
               <Card.Body>
-                <Card.Title>{project.name}</Card.Title>
+                <Card.Title className="gradient-text">
+                  {project.name}
+                </Card.Title>
                 <Card.Text>{project.description}</Card.Text>
                 <Card.Text>{project.languages}</Card.Text>
               </Card.Body>
               <Card.Footer>
-                <Card.Link href={project.link}>Github</Card.Link>
+                <button className="btn btn-danger">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View
+                  </a>
+                </button>
               </Card.Footer>
             </Card>
           ))}

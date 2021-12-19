@@ -25,6 +25,17 @@
   font-size: 0.85em;
 }
 
+.card-title,
+.card-footer {
+  text-align: center;
+}
+.card-footer a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  width: 45%;
+}
 /* animation scale-up-center */
 
 @-webkit-keyframes scale-up-center {
