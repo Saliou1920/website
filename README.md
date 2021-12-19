@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-- Live Site URL: [Here](https://jolly-booth-cdd728.netlify.app/)
+- Live Site URL: [Here](https://loving-dubinsky-91a33c.netlify.app/)
 
 ## Table of contents 🙂
 
