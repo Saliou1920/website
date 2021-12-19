@@ -40,14 +40,16 @@ export default function Menu() {
               I have a passion for creating beautiful and intuitive user
               interfaces.
             </p>
-            <a
-              className="btn btn-primary btn-xl"
-              href="#resume"
-              role="button"
-              style={{ marginTop: "2em" }}
-            >
-              Resume
-            </a>
+            <button className="btn btn-danger">
+              <a
+                className="text-white text-decoration-none"
+                href="../../resume.pdf"
+                download
+              >
+                {" "}
+                Resume
+              </a>
+            </button>
           </div>
           <div className="header-content-image" data-aos="zoom-out">
             <img src="../../saliou.png" alt="me" />
