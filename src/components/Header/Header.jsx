@@ -28,7 +28,12 @@ export default function Menu() {
           </Container>
         </Navbar>
         <div className="header-content" id="about">
-          <div className="header-content-inner">
+          <div
+            className="header-content-inner"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <h1 className="gradient-text">Hi I'm Saliou</h1>
             <p>I am a Software Developer located in New Brunswick.</p>
             <p>
@@ -44,7 +49,7 @@ export default function Menu() {
               Resume
             </a>
           </div>
-          <div className="header-content-image">
+          <div className="header-content-image" data-aos="zoom-out">
             <img src="../../saliou.png" alt="me" />
           </div>
         </div>
