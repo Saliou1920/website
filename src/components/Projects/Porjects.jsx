@@ -61,6 +61,14 @@ export default function Porjects() {
             </Card>
           ))}
         </CardGroup>
+        <div data-aos="flip-up" className="more-projects">
+          <a
+            className="btn education-title"
+            href="https://github.com/Saliou1920?tab=repositories"
+          >
+            More Projects
+          </a>
+        </div>
       </Container>
     </div>
   );

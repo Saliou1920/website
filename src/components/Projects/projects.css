@@ -34,8 +34,21 @@
   text-decoration: none;
   color: white;
 }
-button {
+.card-footer button {
   width: 45%;
+}
+
+.more-projects {
+  text-align: center;
+  margin-top: 50px;
+}
+.more-projects a {
+  width: 20%;
+  color: white;
+  padding: 12px;
+}
+.more-projects a:hover {
+  color: #002853;
 }
 /* animation scale-up-center */
 
