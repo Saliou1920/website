@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import { Card, CardGroup, Container } from "react-bootstrap";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import "./projects.css";
 
 export default function Porjects() {
@@ -34,11 +32,6 @@ export default function Porjects() {
       animation: "fade-up-left",
     },
   ];
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
 
   return (
     <div className="projects" id="projects">
