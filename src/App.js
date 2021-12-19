@@ -6,6 +6,7 @@ import Porjects from "./components/Projects/Porjects";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Experience />
       <Porjects />
+      <Footer />
     </div>
   );
 }

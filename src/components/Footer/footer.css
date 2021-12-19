@@ -1,0 +1,30 @@
+.instagram {
+  background-color: #ac2bac;
+}
+.linkedin {
+  background-color: #0077b5;
+}
+.github {
+  background-color: #333;
+}
+
+.footer {
+  background-color: #031b34;
+  color: white;
+  padding-top: 50px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  text-align: justify;
+}
+
+li a {
+  margin-left: 10px;
+}
+li {
+  margin-bottom: 10px;
+}
