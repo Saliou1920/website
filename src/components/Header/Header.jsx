@@ -1,16 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import "./header.css";
-import particuleConfig from "../../Config/particuleConfig";
-
-import Particles from "react-tsparticles";
 
 export default function Menu() {
   return (
     <div className="header">
       <Container>
-        <Particles className="particles" params={particuleConfig} />
         <Navbar collapseOnSelect expand="lg" variant="dark">
           <Container>
             <Navbar.Brand href="#home">
@@ -44,16 +40,14 @@ export default function Menu() {
               I have a passion for creating beautiful and intuitive user
               interfaces.
             </p>
-            <button className="btn btn-danger">
-              <a
-                className="text-white text-decoration-none"
-                href="../../resume.pdf"
-                download
-              >
-                {" "}
-                Resume
-              </a>
-            </button>
+            <Button
+              href="../../resume.pdf"
+              download
+              variant="danger"
+              style={{ position: "relative" }}
+            >
+              Resume
+            </Button>
           </div>
           <div className="header-content-image" data-aos="zoom-out">
             <img src="../../saliou.png" alt="me" />
