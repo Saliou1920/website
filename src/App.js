@@ -8,6 +8,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Footer from "./components/Footer/Footer";
 import Education from "./components/Education/Education";
+import particuleConfig from "./Config/particuleConfig";
+
+import Particles from "react-tsparticles";
 
 function App() {
   useEffect(() => {
@@ -17,6 +20,8 @@ function App() {
   }, []);
   return (
     <div className="App">
+      <Particles className="particles" params={particuleConfig} />
+
       <Header />
       <Experience />
       <Education />
