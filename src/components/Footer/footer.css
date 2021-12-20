@@ -28,3 +28,8 @@ li a {
 li {
   margin-bottom: 10px;
 }
+
+.socials,
+a {
+  position: relative;
+}

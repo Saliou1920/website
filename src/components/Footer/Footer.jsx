@@ -14,8 +14,8 @@ export default function Footer() {
   return (
     <div className="footer text-center" id="contact">
       <Container>
-        <div className="container p-4">
-          <section className="mb-4">
+        <div className="p-4">
+          <section className="socials mb-4">
             <a
               className="btn  m-1 instagram"
               href="https://www.instagram.com/salihou_joob/"
@@ -63,7 +63,6 @@ export default function Footer() {
             <div className="col-lg-6 col-md-6">
               <p>Saliou Diop</p>
               <p>Software Developer</p>
-              {/* Download my resume */}
               <button className="btn btn-danger">
                 <a className="text-white" href="../../resume.pdf" download>
                   {" "}
