@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-- Live Site URL: [Here](https://loving-dubinsky-91a33c.netlify.app/)
+- Live Site URL: [Here](https://salihou.netlify.app/)
 
 ## Table of contents 🙂
 
