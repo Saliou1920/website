@@ -31,13 +31,13 @@ export default function Experience() {
             <Row>
               <Col xs={12} md={4} className="experience-body-title">
                 <div />
-                <h4>Data Analyst intern</h4>
+                <h4>Software Developer intern</h4>
                 <small>Greystone Energy Inc, Moncton</small>
                 <div className="experience-body-description">
                   <p>
-                    Worked with the operation manager to create dashboard in
-                    Python and Power Bi to evaluate employees performance using
-                    the company large Oracle database.
+                    Worked with the operation manager to create dashboard using
+                    JavaScript, SQL, and Power Bi to evaluate employees
+                    performance using the company large Oracle database.
                   </p>
                   <p>
                     Built reports for the operation manager to understand the
