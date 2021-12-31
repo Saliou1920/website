@@ -30,9 +30,9 @@ export default function Menu() {
         <div className="header-content" id="about">
           <div
             className="header-content-inner"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            // data-aos="fade-right"
+            // data-aos-offset="300"
+            // data-aos-easing="ease-in-sine"
           >
             <h1 className="gradient-text">Hi I'm Saliou</h1>
             <p>I am a Software Developer located in New Brunswick.</p>
@@ -49,7 +49,7 @@ export default function Menu() {
               Resume
             </Button>
           </div>
-          <div className="header-content-image" data-aos="zoom-out">
+          <div className="header-content-image">
             <img src="../../saliou.png" alt="me" />
           </div>
         </div>
