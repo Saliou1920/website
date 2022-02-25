@@ -46,7 +46,7 @@ export default function Footer() {
                 <ul className="list-unstyled mb-0">
                   <li>
                     <FaLocationArrow />
-                    <a href="#!">44 Donald ave, Moncton NB, Canada</a>
+                    <a href="#!">Moncton NB, Canada</a>
                   </li>
                   <li>
                     <FaMailchimp />
