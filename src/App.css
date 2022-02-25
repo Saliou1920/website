@@ -1,3 +1,9 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .gradient-text {
   background: -moz-linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
   background: -webkit-linear-gradient(90deg, #ae67fa 0%, #f49867 100%);
