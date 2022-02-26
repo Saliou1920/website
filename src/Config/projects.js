@@ -1,14 +1,5 @@
 const projects = [
   {
-    name: "Images Gallery",
-    description:
-      "A web app that uses the Unplash API to display beautiful images. The user can search for images by keyword, and can also save the images to their own collection. The user can also view their saved images.",
-    languages: "React, React-Router, Unplash API, firebase auth",
-    link: "https://github.com/Saliou1920/Images-Gallery",
-    image: "gallery.png",
-    animation: "fade-up-right",
-  },
-  {
     name: "Linux Cluster Monitoring",
     description:
       "Design and implement a cluster that manage multiple Linux clusters running on CENTOS 7. It keeps track of each node’s hardware specs and monitor resource utilization in real time saved in a relational database management system",
@@ -16,6 +7,15 @@ const projects = [
     link: "https://github.com/Saliou1920/linux-cluster-monitoring",
     image: "architecture.png",
     animation: "zoom-in",
+  },
+  {
+    name: "Images Gallery",
+    description:
+      "A web app that uses the Unplash API to display beautiful images. The user can search for images by keyword, and can also save the images to their own collection. The user can also view their saved images.",
+    languages: "React, React-Router, Unplash API, firebase auth",
+    link: "https://github.com/Saliou1920/Images-Gallery",
+    image: "gallery.png",
+    animation: "fade-up-right",
   },
   {
     name: "Word Scrambler",
