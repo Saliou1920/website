@@ -9,6 +9,15 @@ const projects = [
     animation: "fade-up-right",
   },
   {
+    name: "Linux Cluster Monitoring",
+    description:
+      "Design and implement a cluster that manage multiple Linux clusters running on CENTOS 7. It keeps track of each node’s hardware specs and monitor resource utilization in real time saved in a relational database management system",
+    languages: "Bash scripts, PostgreSQL, Docker and Git",
+    link: "https://github.com/Saliou1920/linux-cluster-monitoring",
+    image: "architecture.png",
+    animation: "zoom-in",
+  },
+  {
     name: "Word Scrambler",
     description:
       "A word scrambler and typing game. The user has to type the unscrambled word. If the whole sentence is correctly guessed, there should be a next button that shows at the bottom. If you click it would try to fetch the next sentence from the API",
