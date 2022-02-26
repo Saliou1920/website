@@ -18,7 +18,7 @@
   animation: scale-down-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .card img {
-  max-height: 200px;
+  height: 180px;
 }
 
 .card-text {
