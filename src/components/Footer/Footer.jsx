@@ -50,7 +50,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <FaMailchimp />
-                    <a href="#!">esd3023@umoncton.ca</a>
+                    <a href="#!">diopsaliou45@gmail.com</a>
                   </li>
                   <li>
                     <BsFillTelephoneInboundFill />
