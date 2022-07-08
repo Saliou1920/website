@@ -52,10 +52,6 @@ export default function Footer() {
                     <FaMailchimp />
                     <a href="#!">diopsaliou45@gmail.com</a>
                   </li>
-                  <li>
-                    <BsFillTelephoneInboundFill />
-                    <a href="#!">(506) 227-5388</a>
-                  </li>
                 </ul>
               </div>
             </div>
