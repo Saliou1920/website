@@ -1,6 +1,6 @@
 const experience = [
   {
-    title: "Software Developer - Consultant",
+    title: "Software Developer",
     company: "National Bank of Canada, Montreal",
     description:
       "Collaborated in a team based, Agile environment to accomplish objectives by deadline. Used React to make a schedule object from the UI to send the json object to DynamoDB. Worked on the migration Camel 3, Java 11 of XMS apps. Used SonarQube, Jenkins for continuous inspection of code quality.",
