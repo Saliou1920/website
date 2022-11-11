@@ -13,7 +13,7 @@
 
 .experience-header-title img {
   width: 12%;
-  height: 25%;
+  height: 80%;
   margin-right: 10px;
 }
 .experience-body-title h4,
@@ -78,6 +78,9 @@
 }
 
 @media screen and (max-width: 414px) {
+  .experience-header-title {
+    margin-top: 20px;
+  }
   .experience-header-title img {
     width: 10%;
     height: 20%;

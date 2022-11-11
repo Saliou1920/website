@@ -8,6 +8,10 @@ export default function Experience() {
       <Container>
         <div className="experience-header">
           <div className="experience-header-title">
+            <img src="../../nbc.jpeg" alt="nbc" />
+            <span>National Bank of Canada</span>
+          </div>
+          <div className="experience-header-title">
             <img src="../../greystone.jpeg" alt="greystone" />
             <span>Greystone Energy</span>
           </div>
