@@ -1,5 +1,14 @@
 const projects = [
   {
+    name: "Fitness Tracker",
+    description:
+      "A fitness tracker that allows users to track their workouts and view their progress over time. Users can create a new workout, add exercises to a previous workout plan, view the combined weight of multiple exercises on the stats page, and delete workouts from the database.",
+    languages: "TypeScript, Angular, Angular Material, Firebase",
+    link: "https://github.com/Saliou1920/fitness-tracker",
+    image: "fitness-tracker.jpg",
+    animation: "fade-up",
+  },
+  {
     name: "Linux Cluster Monitoring",
     description:
       "Design and implement a cluster that manage multiple Linux clusters running on CENTOS 7. It keeps track of each node’s hardware specs and monitor resource utilization in real time saved in a relational database management system",
@@ -25,15 +34,6 @@ const projects = [
     link: "https://github.com/Saliou1920/word_scrambler",
     image: "word.png",
     animation: "zoom-in",
-  },
-  {
-    name: "BLOG",
-    description:
-      " A blog website that uses MYSQL to store and retrieve data. The admin can create a new post, edit an existing post, and delete a post. He can also create a new user, edit an existing user, and delete a user.",
-    link: "https://github.com/Saliou1920/Blog",
-    languages: "PHP, HTML, CSS, Javascript, MYSQL, CodeIgniter",
-    image: "blog.png",
-    animation: "fade-up-left",
   },
 ];
 
