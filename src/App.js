@@ -1,7 +1,7 @@
 import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Header from "./components/Header/Header";
-import Porjects from "./components/Projects/Porjects";
+import Projects from "./components/Projects/Porjects";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -25,7 +25,7 @@ function App() {
       <Header />
       <Experience />
       <Education />
-      <Porjects />
+      <Projects />
       <Footer />
     </div>
   );

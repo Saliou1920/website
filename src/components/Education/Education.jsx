@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import "./education.css";
 export default function Education() {
   return (
-    <div className="education">
+    <div className="education" id="education">
       <Container>
         <div className="education-title d-flex justify-content-between">
           <h2>Education</h2>

@@ -1,7 +1,7 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "./projects.css";
 import projects from "../../Config/projects";
-export default function Porjects() {
+export default function Projects() {
   return (
     <div className="projects" id="projects">
       <Container>
