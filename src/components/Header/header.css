@@ -45,7 +45,8 @@
 .header-content-image img {
   width: 70%;
   height: 70%;
-  border-radius: 25px;
+  border-radius: 40% 60% 35% 65% / 98% 55% 45% 2%;
+	background-color: #002853;
 }
 
 .header-content-image {
