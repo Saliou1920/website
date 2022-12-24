@@ -16,6 +16,7 @@ function About() {
           download
           variant="danger"
           style={{ position: "relative" }}
+          size="lg"
         >
           Resume
         </Button>
