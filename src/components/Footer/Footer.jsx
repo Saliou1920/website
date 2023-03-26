@@ -1,14 +1,14 @@
-import React from "react";
-import { Container } from "react-bootstrap";
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import {
   FaInstagramSquare,
   FaLinkedin,
   FaGithubSquare,
   FaLocationArrow,
   FaMailchimp,
-} from "react-icons/fa";
-import { BsFillTelephoneInboundFill } from "react-icons/bs";
-import "./footer.css";
+} from 'react-icons/fa';
+import { BsFillTelephoneInboundFill } from 'react-icons/bs';
+import './footer.css';
 
 export default function Footer() {
   return (
@@ -61,8 +61,8 @@ export default function Footer() {
               <p>Software Developer</p>
               <button className="btn btn-danger">
                 <a className="text-white" href="../../resume.pdf" download>
-                  {" "}
-                  Resume!
+                  {' '}
+                  Resume
                 </a>
               </button>
             </div>
