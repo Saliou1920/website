@@ -62,7 +62,7 @@ export default function Footer() {
               <button className="btn btn-danger">
                 <a className="text-white" href="../../resume.pdf" download>
                   {" "}
-                  Resume
+                  Resume!
                 </a>
               </button>
             </div>
