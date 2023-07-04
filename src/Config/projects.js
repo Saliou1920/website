@@ -3,10 +3,19 @@ const projects = [
     name: 'WorkZen - Browser extension',
     description:
       'Boost productivity and relaxation with Pomodoro Timer, Prayer Times, and Lofi Music in one sleek Chrome extension. Enhance your productivity and relaxation with our all-in-one Chrome extension. This feature-packed extension combines a Pomodoro Timer, Prayer Times, and Lofi Music Player to create the ultimate toolkit for a focused and peaceful work environment.',
-    languages: '',
+    languages: 'React, Tailwind CSS',
     link: 'https://chrome.google.com/webstore/detail/workzen/cbanoepkjdgjagfgodlkeehkbffibpjd',
     image: 'extension.png',
     animation: 'fade-up',
+  },
+  {
+    name: 'Rapid URl',
+    description:
+      'RapidUrld is a Simple and Fast URL Shortener built with Next.js, Tailwind CSS, and TypeScript. It allows you to shorten long URLs from popular platforms. The shortened URLs can be easily shared on various platforms such as sites, chats, and emails. The system also tracks the number of clicks each shortened URL receives.',
+    languages: 'NextJs, Prisma, Tailwind Css',
+    link: 'https://rapid-url.vercel.app/',
+    image: 'shortener.png',
+    animation: 'fade-up-right',
   },
   {
     name: 'Linux Cluster Monitoring',
@@ -17,15 +26,7 @@ const projects = [
     image: 'architecture.png',
     animation: 'zoom-in',
   },
-  {
-    name: 'Images Gallery',
-    description:
-      'A web app that uses the Unplash API to display beautiful images. The user can search for images by keyword, and can also save the images to their own collection. The user can also view their saved images.',
-    languages: 'React, React-Router, Unplash API, firebase auth',
-    link: 'https://github.com/Saliou1920/Images-Gallery',
-    image: 'gallery.png',
-    animation: 'fade-up-right',
-  },
+
   {
     name: 'Word Scrambler',
     description:
