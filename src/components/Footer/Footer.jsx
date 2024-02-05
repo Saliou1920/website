@@ -46,7 +46,7 @@ export default function Footer() {
                 <ul className="list-unstyled mb-0">
                   <li>
                     <FaLocationArrow />
-                    <a href="#!">Moncton NB, Canada</a>
+                    <a href="#!">Montreal, Canada</a>
                   </li>
                   <li>
                     <FaMailchimp />
@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="text-center p-3">
-          © 2023 Copyright <a href="#home">Saliou Diop</a>
+          © 2024 Copyright <a href="#home">Saliou Diop</a>
         </div>
       </Container>
     </div>
