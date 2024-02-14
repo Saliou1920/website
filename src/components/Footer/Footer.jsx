@@ -7,7 +7,6 @@ import {
   FaLocationArrow,
   FaMailchimp,
 } from 'react-icons/fa';
-import { BsFillTelephoneInboundFill } from 'react-icons/bs';
 import './footer.css';
 
 export default function Footer() {
