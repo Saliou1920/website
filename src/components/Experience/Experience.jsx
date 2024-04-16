@@ -34,7 +34,7 @@ export default function Experience() {
           <div className="experience-body-content">
             <Row>
               {experience.map((experience, index) => (
-                <Col xs={12} md={6} lg={4} className="experience-body-title">
+                <Col xs={12} md={6} lg={4} className="experience-body-title" key={index}>
                   <div />
                   <h4>{experience.title}</h4>
                   <small>{experience.company}</small>
